@@ -1298,7 +1298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "560pF"
 			(at 80.01 43.1799 0)
 			(effects
 				(font
@@ -1316,7 +1316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1007_X8R_ULTRA_150C_SMD.pdf"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -1325,7 +1325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 560PF 50V X8R 0805"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -1334,7 +1334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "C0805C561K5HACTU"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -2057,23 +2057,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 34.29 270)
+		(at 59.69 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d29990f-05ab-41f0-a55f-eeab0340fb6b")
+		(uuid "7625d392-ad47-4aa9-a903-9c8a1c3901aa")
 		(property "Reference" "R4"
-			(at 57.912 31.496 90)
+			(at 58.928 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "?"
-			(at 60.198 32.004 90)
+		(property "Value" "10k"
+			(at 59.182 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 32.512 90)
+			(at 59.69 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,10 +2117,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "18197b72-28c8-45f4-b490-fc34413b8012")
+			(uuid "73f45d43-3f35-429a-b20f-ef35edee9385")
 		)
 		(pin "2"
-			(uuid "ff41122e-5d89-4983-82ce-952a90c500f2")
+			(uuid "3ec848cf-c57e-4aa2-90bb-c4f7dfd1a4d0")
 		)
 		(instances
 			(project "MyFirstBuck"

@@ -748,7 +748,7 @@
 		(at 67.31 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62929169-fd84-4acd-ad37-94952b073b5c")
+		(uuid "b7965891-def9-42d8-ab5f-feaff39cc44c")
 	)
 	(junction
 		(at 76.2 34.29)
@@ -790,6 +790,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 44.45) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3824b870-d66d-432a-acbd-89b3300bad34")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 67.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578f87b0-27d5-4f1c-9673-2b3a8f49022f")
+	)
+	(wire
+		(pts
 			(xy 52.07 34.29) (xy 55.88 34.29)
 		)
 		(stroke
@@ -800,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 34.29) (xy 76.2 34.29)
+			(xy 63.5 34.29) (xy 67.31 34.29)
 		)
 		(stroke
 			(width 0)
@@ -850,13 +870,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 34.29) (xy 67.31 34.29)
+			(xy 67.31 34.29) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbad2841-3ca3-4410-811c-b150c71aad3a")
+		(uuid "bba40265-99de-425d-8fe1-a56700332b58")
 	)
 	(wire
 		(pts
@@ -887,16 +907,6 @@
 			(type default)
 		)
 		(uuid "f8751269-c744-44d4-9673-ddc453d403fa")
-	)
-	(wire
-		(pts
-			(xy 67.31 34.29) (xy 67.31 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd2182d-0e12-493f-ae9f-2b4219e6a487")
 	)
 	(rectangle
 		(start 80.01 53.34)
@@ -1280,6 +1290,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 67.31 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2020ad8b-eee2-4041-89b8-d2c1b7320994")
+		(property "Reference" "R3"
+			(at 62.738 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 65.278 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 69.088 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 600 OHM 1% 1/8W 0805"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCU08050C6000FP500"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c2374f-6989-4415-a77d-896c1823f4ff")
+		)
+		(pin "2"
+			(uuid "5558d4f8-8f0d-4e06-bc68-8df82deb3f85")
+		)
+		(instances
+			(project "MyFirstBuck"
+				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/e0895137-84f5-4117-9d45-f43f4d4b7c88"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 76.2 41.91 0)
 		(unit 1)
@@ -1298,7 +1384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF"
+		(property "Value" "6.8uF"
 			(at 80.01 43.1799 0)
 			(effects
 				(font
@@ -1316,7 +1402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1007_X8R_ULTRA_150C_SMD.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -1325,7 +1411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 560PF 50V X8R 0805"
+		(property "Description" "CAP CER 6.8UF 10V X7R 0805"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -1334,7 +1420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C561K5HACTU"
+		(property "Part Number" "C2012X7R1A685K125AC"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -1929,7 +2015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100NF"
 			(at 33.02 52.0699 0)
 			(effects
 				(font
@@ -1947,7 +2033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -1956,7 +2042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tantalum Decoupling (Bypass) Capacitor"
+		(property "Description" "Tantalum Decoupling (Bypass) Capacitor, CAP TANT 100NF 20% 25V 0805"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -2215,7 +2301,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "600"
 			(at 85.09 18.288 90)
 			(effects
 				(font
@@ -2232,7 +2318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
 			(at 85.09 20.32 0)
 			(effects
 				(font
@@ -2241,7 +2327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 600 OHM 1% 1/8W 0805"
 			(at 85.09 20.32 0)
 			(effects
 				(font
@@ -2250,7 +2336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0805FT10K0"
+		(property "Part Number" "MCU08050C6000FP500"
 			(at 85.09 20.32 0)
 			(effects
 				(font
@@ -2336,83 +2422,6 @@
 			(project ""
 				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/e0895137-84f5-4117-9d45-f43f4d4b7c88"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 67.31 41.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac6e93c1-66a0-4a24-8f0b-2feddc5bca20")
-		(property "Reference" "R3"
-			(at 60.96 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "?"
-			(at 63.5 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 69.088 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RMCF0805FT10K0"
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72bed735-2803-419c-8e83-bdb47646846e")
-		)
-		(pin "2"
-			(uuid "e15e1090-c4c8-452f-a130-6a88dbf5f65f")
-		)
-		(instances
-			(project "MyFirstBuck"
-				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/e0895137-84f5-4117-9d45-f43f4d4b7c88"
-					(reference "R3")
 					(unit 1)
 				)
 			)

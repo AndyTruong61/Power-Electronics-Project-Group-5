@@ -1142,7 +1142,7 @@
 	)
 	(rectangle
 		(start 12.7 35.56)
-		(end 64.77 63.5)
+		(end 64.77 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -1154,7 +1154,7 @@
 	)
 	(rectangle
 		(start 68.58 35.56)
-		(end 139.7 63.5)
+		(end 139.7 67.31)
 		(stroke
 			(width 0)
 			(type default)

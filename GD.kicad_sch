@@ -2025,7 +2025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DGTL ISO 5KV 1CH GATE DVR 8SOIC"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "51R"
 			(at 142.24 55.88 90)
 			(effects
 				(font
@@ -2187,7 +2187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -2197,6 +2197,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0751RL"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -2833,10 +2842,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e9d01b8-b643-4844-a427-a35b2c342d86")
 		(property "Reference" "C9"
-			(at 152.4 63.4999 0)
+			(at 151.892 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,8 +2852,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 152.4 66.0399 0)
+		(property "Value" "32pC"
+			(at 150.876 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2E320JB12-01.pdf"
 			(at 148.59 64.77 0)
 			(effects
 				(font
@@ -2872,6 +2880,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GQM2195C2E320JB12D"
 			(at 148.59 64.77 0)
 			(effects
 				(font
@@ -3032,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "US2AA"
 			(at 238.76 62.23 0)
 			(effects
 				(font
@@ -3496,6 +3513,85 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 223.52 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a8ad81-6396-457e-b22c-30de5393544e")
+		(property "Reference" "C7"
+			(at 227.33 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 227.33 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 224.4852 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tantalum Decoupling (Bypass) Capacitor"
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TMCP1E104MTRF"
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b51ed9f1-ebd5-4e06-a971-331810fd73fa")
+		)
+		(pin "2"
+			(uuid "50c36470-547a-4a83-b58f-d62027dacd6e")
+		)
+		(instances
+			(project "MyFirstBuck"
+				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/6dc26df8-7966-4489-8427-3eb1cf5f2863"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 143.51 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3531,7 +3627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
 			(at 143.51 27.94 0)
 			(effects
 				(font
@@ -3609,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TMV 0512SHI"
+		(property "Datasheet" "https://www.tracopower.com/products/tmv-hi.pdf"
 			(at 158.75 24.13 0)
 			(effects
 				(font
@@ -3619,7 +3715,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC DC CONVERTER 12V 1W"
+			(at 158.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TMV 0512SHI"
 			(at 158.75 24.13 0)
 			(effects
 				(font
@@ -3711,85 +3816,6 @@
 			(project ""
 				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/6dc26df8-7966-4489-8427-3eb1cf5f2863"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 223.52 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3d2dba3-258b-40fd-81f3-b400fc234030")
-		(property "Reference" "C7"
-			(at 227.33 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 227.33 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 224.4852 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tantalum Decoupling (Bypass) Capacitor"
-			(at 223.52 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "TMCP1E104MTRF"
-			(at 223.52 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5239d2e6-9f51-47c3-bf5c-cd50ee6210cd")
-		)
-		(pin "2"
-			(uuid "af8b88fd-b850-4d45-850c-8c12f0c9095d")
-		)
-		(instances
-			(project "MyFirstBuck"
-				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/6dc26df8-7966-4489-8427-3eb1cf5f2863"
-					(reference "C7")
 					(unit 1)
 				)
 			)

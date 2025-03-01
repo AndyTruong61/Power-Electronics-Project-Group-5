@@ -4807,8 +4807,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ddf94c4-9ef5-402d-ac87-1839404a4f69")
-		(property "Reference" "D5"
-			(at 66.04 27.94 0)
+		(property "Reference" "D5(Blue)1"
+			(at 60.452 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-026/LTST-C150TBKT(0630).pdf"
 			(at 67.31 30.48 0)
 			(effects
 				(font
@@ -4853,6 +4853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTST-C150TBKT"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bfe8ca4-13e8-4d7a-8753-79683d77d654")
 		)
@@ -4862,7 +4871,7 @@
 		(instances
 			(project "MyFirstBuck"
 				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/93d2fcfa-d06c-41b2-bece-4410c3be6b80"
-					(reference "D5")
+					(reference "D5(Blue)1")
 					(unit 1)
 				)
 			)
@@ -5928,8 +5937,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a39025d-5cc1-49d4-a766-80b9b4e6f584")
-		(property "Reference" "D3"
-			(at 66.04 14.732 0)
+		(property "Reference" "D3(Red)1"
+			(at 62.992 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0149/LTST-C150KRKT.pdf"
 			(at 67.31 17.78 0)
 			(effects
 				(font
@@ -5974,6 +5983,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTST-C150KRKT"
+			(at 67.31 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d15d9197-4365-4a96-8eeb-d0b7cdc8cde8")
 		)
@@ -5983,7 +6001,7 @@
 		(instances
 			(project "MyFirstBuck"
 				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/93d2fcfa-d06c-41b2-bece-4410c3be6b80"
-					(reference "D3")
+					(reference "D3(Red)1")
 					(unit 1)
 				)
 			)
@@ -7406,8 +7424,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8152f1d1-ad8a-45bf-b2a3-0971c0ea0dd7")
-		(property "Reference" "D4"
-			(at 65.786 22.606 0)
+		(property "Reference" "D4(green)1"
+			(at 61.214 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-072/LTST-C150KGKT.pdf"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -7452,6 +7470,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LTST-C150KGKT"
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4bb243e-8ffc-42d7-9675-0dfd1d25a8dc")
 		)
@@ -7461,7 +7488,7 @@
 		(instances
 			(project "MyFirstBuck"
 				(path "/0768732b-0e8f-4a40-9cf3-e602ee34def3/93d2fcfa-d06c-41b2-bece-4410c3be6b80"
-					(reference "D4")
+					(reference "D4(green)1")
 					(unit 1)
 				)
 			)

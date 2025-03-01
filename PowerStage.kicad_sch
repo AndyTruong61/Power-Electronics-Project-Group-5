@@ -1874,7 +1874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "IRF540N"
+		(property "Part Number" "IRF540NPBF"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -2390,7 +2390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/SS32%20SERIES_Q2412.pdf"
 			(at 99.06 57.15 0)
 			(effects
 				(font

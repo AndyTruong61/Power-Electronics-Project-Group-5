@@ -135,12 +135,12 @@
 	(net 53 "unconnected-(U2A-GPIO60{slash}SPICLKA-PadJ1_7)")
 	(net 54 "unconnected-(U2D-GPIO1{slash}PWMOUT1B-PadJ4_9)")
 	(net 55 "unconnected-(U2B-~{RESET_J2}-PadJ2_6)")
-	(net 56 "Net-(D3-K)")
+	(net 56 "Net-(D3(Red)1-K)")
 	(net 57 "unconnected-(U2H-GPIO15{slash}OPXBAR4-PadJ8_3)")
 	(net 58 "unconnected-(U2L-EQEP2B-PadJ15_2)")
 	(net 59 "unconnected-(U2C-ADCINC3{slash}ANALOGIN-PadJ3_4)")
 	(net 60 "unconnected-(U2C-ADCINA2{slash}ANALOGIN-PadJ3_9)")
-	(net 61 "Net-(D4-K)")
+	(net 61 "Net-(D4(green)1-K)")
 	(net 62 "unconnected-(U2L-EQEP2A-PadJ15_1)")
 	(net 63 "unconnected-(U2E-GPIO52-PadJ5_8)")
 	(net 64 "unconnected-(U2E-GPIO139{slash}SCICRX-PadJ5_3)")
@@ -148,7 +148,7 @@
 	(net 66 "unconnected-(U2G-ADCIN15{slash}ANALOGIN-PadJ7_3)")
 	(net 67 "unconnected-(U2K-EQEP1A-PadJ14_1)")
 	(net 68 "unconnected-(U2G-ADCINA5{slash}ANALOGIN-PadJ7_6)")
-	(net 69 "Net-(D5-K)")
+	(net 69 "Net-(D5(Blue)1-K)")
 	(net 70 "unconnected-(U2A-GPIO67-PadJ1_5)")
 	(net 71 "unconnected-(U2H-GPIO9{slash}PWMOUT5B-PadJ8_7)")
 	(net 72 "unconnected-(U2D-GPIO5{slash}PWMOUT3B-PadJ4_5)")
@@ -192,7 +192,6 @@
 	(net 110 "unconnected-(U2C-ADCINB3{slash}ANALOGIN-PadJ3_5)")
 	(net 111 "unconnected-(U2G-ADCINB4{slash}ANALOGIN-PadJ7_8)")
 	(net 112 "unconnected-(U2E-GPIO40{slash}I2CSDAB{slash}J5-PadJ5_10)")
-	(net 113 "Net-(L1-Pad2)")
 	(footprint "Connector:Banana_Jack_1Pin"
 		(layer "F.Cu")
 		(uuid "06ffeb1d-9b9d-4c20-84a4-f40e92dafcf4")
@@ -1542,7 +1541,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 61 "Net-(D4-K)")
+			(net 61 "Net-(D4(green)1-K)")
 			(pintype "passive")
 			(uuid "20640715-2fcd-4c55-87df-2d54491636f7")
 		)
@@ -1573,7 +1572,7 @@
 		(at 108.831 91.948)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D3"
+		(property "Reference" "D3(Red)1"
 			(at -3.421 -0.13 0)
 			(layer "F.SilkS")
 			(uuid "7c980587-c488-460a-b935-bfcf61792ee6")
@@ -1608,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0149/LTST-C150KRKT.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1630,6 +1629,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C150KRKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a2894e3-5e51-4048-ae55-c6a4d43aad66")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1775,7 +1787,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 56 "Net-(D3-K)")
+			(net 56 "Net-(D3(Red)1-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "52eb556e-5595-4327-85fa-f57171afc0ce")
@@ -2486,7 +2498,7 @@
 		(at 77.793 79.11)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D5"
+		(property "Reference" "D5(Blue)1"
 			(at 3.233 0 0)
 			(layer "F.SilkS")
 			(uuid "2d8ebd27-c184-4a55-8697-461da994bfd6")
@@ -2521,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-026/LTST-C150TBKT(0630).pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2543,6 +2555,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C150TBKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c56ac29-1036-47e7-9bab-f764b6eaa1a7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2688,7 +2713,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 69 "Net-(D5-K)")
+			(net 69 "Net-(D5(Blue)1-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "cac41183-2d9f-4f8a-b4a8-f151c1cbb6ea")
@@ -2916,7 +2941,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 69 "Net-(D5-K)")
+			(net 69 "Net-(D5(Blue)1-K)")
 			(pintype "passive")
 			(uuid "42f8aed1-3acc-4a9f-92e7-9643d064b9b5")
 		)
@@ -3341,232 +3366,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "6768e7e5-b8d6-4ab2-a05a-6e2a61538842")
-		(at 92.271 78.094 180)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
-		(tags "capacitor")
-		(property "Reference" "C7"
-			(at 3 0 0)
-			(layer "F.SilkS")
-			(uuid "46afe22d-f0e5-4ea9-9345-632a87594030")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 0 1.68 0)
-			(layer "F.Fab")
-			(uuid "b201a604-f866-46e6-a8d2-b1019ca7af3d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac071608-c94d-4b38-a013-8c535279d78e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0fe8057-dc03-4e92-a548-78d5d39366ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Tantalum Decoupling (Bypass) Capacitor"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd2bf5be-db96-4b06-ab50-52531a56f0aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Part Number" "TMCP1E104MTRF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c687c32-28e5-4def-a2a4-e4612bfa9445")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/6dc26df8-7966-4489-8427-3eb1cf5f2863/e3d2dba3-258b-40fd-81f3-b400fc234030")
-		(sheetname "GD")
-		(sheetfile "GD.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c4c3e36c-919e-4d7e-ae85-99c15e34649a")
-		)
-		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17a20884-4c83-40f5-bf04-ce3d48207b0d")
-		)
-		(fp_line
-			(start 1.7 0.98)
-			(end -1.7 0.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "16b07962-344c-4d34-87ea-77c4ac0ae925")
-		)
-		(fp_line
-			(start 1.7 -0.98)
-			(end 1.7 0.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7929f856-b403-49d9-a175-ebffc3867bb6")
-		)
-		(fp_line
-			(start -1.7 0.98)
-			(end -1.7 -0.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8e31513c-7233-4e14-871b-6bc7109dc113")
-		)
-		(fp_line
-			(start -1.7 -0.98)
-			(end 1.7 -0.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dfed24c8-959a-4eb1-a957-4987cdaf9d6a")
-		)
-		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "181bc6d3-c5d8-47fb-acea-eec7a09ed7b6")
-		)
-		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b90bb592-ac72-4073-8935-38533689336c")
-		)
-		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ebb6f953-b1af-4962-8bbc-f68507bbdbe9")
-		)
-		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7154e09e-a9e1-45e2-8715-39f428208acf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3ac42b99-ef0d-4b77-a3f9-68e7f1e75c10")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.95 0 180)
-			(size 1 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 18 "/GD/ISO_12")
-			(pintype "passive")
-			(uuid "b6e97888-fc17-484d-8a25-1bdd655714ae")
-		)
-		(pad "2" smd roundrect
-			(at 0.95 0 180)
-			(size 1 1.45)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 24 "/VSW")
-			(pintype "passive")
-			(uuid "65c6e2aa-666e-45c2-8433-a1e0983b3bda")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "71b5dfe6-6058-48cf-ae57-e61398945d66")
@@ -3660,7 +3459,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "US2AA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3955,7 +3754,7 @@
 				)
 			)
 		)
-		(property "Part Number" "IRF540N"
+		(property "Part Number" "IRF540NPBF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6528,7 +6327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7149,7 +6948,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 56 "Net-(D3-K)")
+			(net 56 "Net-(D3(Red)1-K)")
 			(pintype "passive")
 			(uuid "64d637d3-3e1e-48b3-aae1-50f644f4aea5")
 		)
@@ -7180,7 +6979,7 @@
 		(at 200.549 91.936 180)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D4"
+		(property "Reference" "D4(green)1"
 			(at 3.4 0 0)
 			(layer "F.SilkS")
 			(uuid "0136f67f-cc4b-4f4e-986e-1e335782b568")
@@ -7215,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-072/LTST-C150KGKT.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7237,6 +7036,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "LTST-C150KGKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceaeacff-12cc-48cd-8d2f-ead4f4f14221")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7382,7 +7194,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 61 "Net-(D4-K)")
+			(net 61 "Net-(D4(green)1-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "72fa3b2e-0983-4708-9f6f-8441fb7bcb3e")
@@ -11563,7 +11375,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "51R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "a035b18e-f5af-4d61-b291-e7e56d391b25")
@@ -11587,7 +11399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11609,6 +11421,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "RC0805FR-0751RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47f1155d-23d2-433d-bf41-a0f2b36fc80e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12422,8 +12247,6 @@
 			(drill 1.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(L1-Pad2)")
-			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "6926560f-cc70-4dd2-ac7c-8e019d5b035b")
 		)
@@ -12433,8 +12256,6 @@
 			(drill 1.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "/VOUT")
-			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "fa185af8-97b1-44e2-bdb8-db1fef91efc3")
 		)
@@ -12491,7 +12312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/SS32%20SERIES_Q2412.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12737,6 +12558,232 @@
 			(uuid "4fd1e5d0-04ea-4232-b700-78fe3c33f7a0")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "dd4adcfb-7f56-421b-950d-7f18db20afe7")
+		(at 92.25 78.25 180)
+		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C7"
+			(at 3 0 360)
+			(layer "F.SilkS")
+			(uuid "12375d0b-8ad8-427a-a567-82dbbf1283fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 0 1.68 360)
+			(layer "F.Fab")
+			(uuid "c1faf456-49c2-485b-bb26-123869925c2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62372f33-d627-451c-a256-266c9c9c6914")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b200160a-1d90-4a90-971c-6daa7380e50a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Tantalum Decoupling (Bypass) Capacitor"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67e2eec1-8106-4133-bbce-595b78824f3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "TMCP1E104MTRF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76e5cf99-8676-4fc7-a38c-f23f424c3e1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/6dc26df8-7966-4489-8427-3eb1cf5f2863/c7a8ad81-6396-457e-b22c-30de5393544e")
+		(sheetname "GD")
+		(sheetfile "GD.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.261252 0.735)
+			(end 0.261252 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c9275f0-ee7a-4cd7-8468-e32dc8d930e9")
+		)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a08bde96-7504-4250-b6ce-0ed79b8c6630")
+		)
+		(fp_line
+			(start 1.7 0.98)
+			(end -1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "09e33120-9568-4825-aced-b48a3b2d6955")
+		)
+		(fp_line
+			(start 1.7 -0.98)
+			(end 1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f72f00d-9907-4a55-8f6f-8a385c2ed198")
+		)
+		(fp_line
+			(start -1.7 0.98)
+			(end -1.7 -0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a6ed9dd-0684-4551-81e1-af5c5aa9eaa7")
+		)
+		(fp_line
+			(start -1.7 -0.98)
+			(end 1.7 -0.98)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1900524c-9b31-42ae-80cc-1924353be595")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b447dfb7-07f1-47c1-b269-b3b307f57302")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "80e1d915-9382-4a59-ac03-e767cf9e2f28")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "949c1452-d510-457e-bef3-e976a8e6b9e1")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d72f3bf6-3334-4dbe-a8e5-d5c5b49591ff")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(uuid "dcf00f2b-9f21-4486-8a58-4a0561fa5adf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.95 0 180)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 18 "/GD/ISO_12")
+			(pintype "passive")
+			(uuid "25833bf3-1628-41b5-ae0c-90f2eaa3c31a")
+		)
+		(pad "2" smd roundrect
+			(at 0.95 0 180)
+			(size 1 1.45)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 24 "/VSW")
+			(pintype "passive")
+			(uuid "2e7cb746-91ea-4ace-a264-71d7c44a6228")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13669,7 +13716,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "32pC"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "a83c0e99-0c4d-4151-b2a6-410c961d1bd3")
@@ -13693,7 +13740,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2E320JB12-01.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13715,6 +13762,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "GQM2195C2E320JB12D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c9e3b53-4206-483c-8df2-92569b719b83")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14076,8 +14136,6 @@
 			(drill 1.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "/VSW")
-			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "fa7db1c6-5dfa-40a6-bcc6-cd2de25c33ab")
 		)
@@ -14087,8 +14145,6 @@
 			(drill 1.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(L1-Pad2)")
-			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "000cbefc-8206-485c-b97a-1a0287632d88")
 		)
@@ -15473,6 +15529,22 @@
 		)
 	)
 	(segment
+		(start 155.321 46.228)
+		(end 155.829 45.72)
+		(width 1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "43af8eb4-68a2-4321-950b-74571f2a6f13")
+	)
+	(segment
+		(start 155.321 73.914)
+		(end 155.321 46.228)
+		(width 1)
+		(layer "F.Cu")
+		(net 0)
+		(uuid "f3023f21-3b71-4724-b7a6-33d228812ae9")
+	)
+	(segment
 		(start 194.732 75.961)
 		(end 197.866 75.961)
 		(width 0.2)
@@ -16780,22 +16852,6 @@
 		(layer "F.Cu")
 		(net 92)
 		(uuid "f81e2c73-fc55-47a3-b96c-19a41129ed0a")
-	)
-	(segment
-		(start 155.321 46.228)
-		(end 155.829 45.72)
-		(width 1)
-		(layer "F.Cu")
-		(net 113)
-		(uuid "43af8eb4-68a2-4321-950b-74571f2a6f13")
-	)
-	(segment
-		(start 155.321 73.914)
-		(end 155.321 46.228)
-		(width 1)
-		(layer "F.Cu")
-		(net 113)
-		(uuid "f3023f21-3b71-4724-b7a6-33d228812ae9")
 	)
 	(zone
 		(net 5)

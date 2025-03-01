@@ -1,4 +1,4 @@
-24654667720115079
+24666847002682933
 1140-103K-RC
 INDRD2921W163D3810H2616P
 
@@ -6,6 +6,13 @@ INDRD2921W163D3810H2616P
 0
 2
 2
+61202021621
+61202021621
+
+
+0
+20
+20
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64616,6 +64623,13 @@ solder jumper open
 0
 5
 3
+LAUNCHXL_F28379D
+MOD_LAUNCHXL-F28379D
+
+
+0
+107
+107
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -65820,6 +65834,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM358AP
+P8
+
+LM358AP 
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92777,6 +92798,13 @@ Logo WEEE
 0
 0
 0
+TMV_0512SHI
+TMV-HI_SINGLE_TRP
+
+TMV 0512SHI 
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -98622,6 +98650,27 @@ igbt diode module
 0
 25
 25
+UCC530
+SOIC8_DWV_TEX
+
+UCC5304DWVR 
+0
+8
+8
+UCC530
+SOIC8_DWV_TEX-L
+
+UCC5304DWVR 
+0
+8
+8
+UCC530
+SOIC8_DWV_TEX-M
+
+UCC5304DWVR 
+0
+8
+8
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

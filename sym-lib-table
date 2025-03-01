@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "1140-103K-RC")(type "KiCad")(uri "C:/Users/upsca/Downloads/1140-103K-RC/1140-103K-RC.kicad_sym")(options "")(descr ""))
+  (lib (name "LM358AP")(type "KiCad")(uri "C:/Users/upsca/Downloads/LM358AP/KiCADv6/2025-03-01_17-50-25.kicad_sym")(options "")(descr ""))
+  (lib (name "UCC5304DWVR")(type "KiCad")(uri "C:/Users/upsca/Downloads/UCC5304DWVR (1)/KiCADv6/2025-03-01_18-23-52.kicad_sym")(options "")(descr ""))
 )
